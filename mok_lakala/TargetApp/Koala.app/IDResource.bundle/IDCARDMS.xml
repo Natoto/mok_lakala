@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE IDCARD SYSTEM "IDCARD.dtd">
+<IDCARD>
+ <TemplatePath>IDCARDMS/2.xml</TemplatePath>
+ <TemplatePath>IDCARDMS/3.xml</TemplatePath>
+</IDCARD>

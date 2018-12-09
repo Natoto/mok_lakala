@@ -1,0 +1,30 @@
+{
+  "name": "KxMenu",
+  "version": "1.0.1",
+  "summary": "KxMenu - a iOS network debug library ,It can monitor HTTP requests within the App and displays information related to the request.",
+  "homepage": "https://github.com/natoto",
+  "license": "MIT",
+  "authors": {
+    "nonato": "nonato@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/natoto/KxMenu.git",
+    "tag": "1.0.1"
+  },
+  "frameworks": [
+    "Foundation",
+    "CoreGraphics",
+    "UIKit"
+  ],
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "default_subspecs": "standard",
+  "subspecs": [
+    {
+      "name": "standard",
+      "source_files": "KxMenu/**/*.{h,m,png}"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - FLEX (2.4.0)
+  - JRSwizzle (1.0)
+  - KxMenu (1.0.1):
+    - KxMenu/standard (= 1.0.1)
+  - KxMenu/standard (1.0.1)
+  - RNetworkEye (1.0.6):
+    - RNetworkEye/standard (= 1.0.6)
+  - RNetworkEye/standard (1.0.6)
+
+DEPENDENCIES:
+  - AFNetworking
+  - FLEX (~> 2.0)
+  - JRSwizzle (~> 1.0)
+  - KxMenu (from `/Users/boo/Documents/demo/RevealPod`)
+  - RNetworkEye (from `/Users/boo/Documents/demo/RevealPod`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - FLEX
+    - JRSwizzle
+
+EXTERNAL SOURCES:
+  KxMenu:
+    :path: "/Users/boo/Documents/demo/RevealPod"
+  RNetworkEye:
+    :path: "/Users/boo/Documents/demo/RevealPod"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  FLEX: bd1a39e55b56bb413b6f1b34b3c10a0dc44ef079
+  JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
+  KxMenu: 277f103cef1540a1d5c7a86c99b9522341b2939d
+  RNetworkEye: 5272ea8cba76ceee3669e2c3ecd72e82fa2b0049
+
+PODFILE CHECKSUM: a60335b50188d2e5e4dc6c96a6450e9155e7ce8d
+
+COCOAPODS: 1.5.3

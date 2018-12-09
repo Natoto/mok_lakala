@@ -1,0 +1,805 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8650B1620457A142C36EBD05 /* libPods-mok_lakalaDylib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59E8634DED745917FFEB71CB /* libPods-mok_lakalaDylib.a */; };
+		E20B850F1B411998D2F7B1D8 /* libPods-mok_lakala.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10715EFCEFD95D81322ABCB7 /* libPods-mok_lakala.a */; };
+		F8BFE20921BD2946004237E8 /* MDConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8BFE20821BD2946004237E8 /* MDConfig.plist */; };
+		F8BFE21321BD2946004237E8 /* libmok_lakalaDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8BFE21221BD2946004237E8 /* libmok_lakalaDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		F8BFE21821BD2946004237E8 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BFE21721BD2946004237E8 /* JavaScriptCore.framework */; };
+		F8BFE21A21BD2946004237E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BFE21921BD2946004237E8 /* Foundation.framework */; };
+		F8BFE21C21BD2946004237E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BFE21B21BD2946004237E8 /* UIKit.framework */; };
+		F8BFE22121BD2946004237E8 /* mok_lakalaDylib.mm in Sources */ = {isa = PBXBuildFile; fileRef = F8BFE22021BD2946004237E8 /* mok_lakalaDylib.mm */; };
+		F8BFE22421BD2946004237E8 /* MDConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F8BFE22321BD2946004237E8 /* MDConfigManager.h */; };
+		F8BFE22621BD2946004237E8 /* MDConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BFE22521BD2946004237E8 /* MDConfigManager.m */; };
+		F8BFE22821BD2946004237E8 /* MDCycriptManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F8BFE22721BD2946004237E8 /* MDCycriptManager.h */; };
+		F8BFE22A21BD2946004237E8 /* MDCycriptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BFE22921BD2946004237E8 /* MDCycriptManager.m */; };
+		F8BFE22C21BD2946004237E8 /* MDMethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = F8BFE22B21BD2946004237E8 /* MDMethodTrace.h */; };
+		F8BFE22E21BD2946004237E8 /* MDMethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BFE22D21BD2946004237E8 /* MDMethodTrace.m */; };
+		F8BFE23021BD2946004237E8 /* ANYMethodLog.h in Headers */ = {isa = PBXBuildFile; fileRef = F8BFE22F21BD2946004237E8 /* ANYMethodLog.h */; };
+		F8BFE23221BD2946004237E8 /* ANYMethodLog.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BFE23121BD2946004237E8 /* ANYMethodLog.m */; };
+		F8BFE23521BD2946004237E8 /* LLDBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = F8BFE23421BD2946004237E8 /* LLDBTools.h */; };
+		F8BFE23721BD2946004237E8 /* LLDBTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = F8BFE23621BD2946004237E8 /* LLDBTools.mm */; };
+		F8BFE23C21BD2946004237E8 /* AntiAntiDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BFE23B21BD2946004237E8 /* AntiAntiDebug.m */; };
+		F8BFE23F21BD2946004237E8 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = F8BFE23E21BD2946004237E8 /* fishhook.c */; };
+		F8BFE24121BD2946004237E8 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = F8BFE24021BD2946004237E8 /* fishhook.h */; };
+		F8BFE24321BD2946004237E8 /* mok_lakalaDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = F8BFE24221BD2946004237E8 /* mok_lakalaDylib.h */; };
+		F8BFE24521BD2946004237E8 /* mok_lakalaDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BFE24421BD2946004237E8 /* mok_lakalaDylib.m */; };
+		F8BFE25021BD2BA0004237E8 /* NSObject+DEDAO.h in Headers */ = {isa = PBXBuildFile; fileRef = F8BFE24E21BD2BA0004237E8 /* NSObject+DEDAO.h */; };
+		F8BFE25121BD2BA0004237E8 /* NSObject+DEDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BFE24F21BD2BA0004237E8 /* NSObject+DEDAO.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8BFE21421BD2946004237E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8BFE1F621BD2946004237E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8BFE21121BD2946004237E8;
+			remoteInfo = mok_lakalaDylib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F8BFE1FE21BD2946004237E8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F8BFE21321BD2946004237E8 /* libmok_lakalaDylib.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03E2198061E1BA21D857E1D3 /* Pods-mok_lakalaDylib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mok_lakalaDylib.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mok_lakalaDylib/Pods-mok_lakalaDylib.debug.xcconfig"; sourceTree = "<group>"; };
+		10715EFCEFD95D81322ABCB7 /* libPods-mok_lakala.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mok_lakala.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A327CECC62E360A1983692F /* Pods-mok_lakala.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mok_lakala.release.xcconfig"; path = "Pods/Target Support Files/Pods-mok_lakala/Pods-mok_lakala.release.xcconfig"; sourceTree = "<group>"; };
+		59E8634DED745917FFEB71CB /* libPods-mok_lakalaDylib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mok_lakalaDylib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B395BC150D9BF14C2FC6BDF2 /* Pods-mok_lakalaDylib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mok_lakalaDylib.release.xcconfig"; path = "Pods/Target Support Files/Pods-mok_lakalaDylib/Pods-mok_lakalaDylib.release.xcconfig"; sourceTree = "<group>"; };
+		B4CFF01A5D7D4ED24E9C1D5B /* Pods-mok_lakala.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mok_lakala.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mok_lakala/Pods-mok_lakala.debug.xcconfig"; sourceTree = "<group>"; };
+		F8BFE20121BD2946004237E8 /* mok_lakala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mok_lakala.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BFE20421BD2946004237E8 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F8BFE20621BD2946004237E8 /* quick-resign.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "quick-resign.sh"; path = "Scripts/quick-resign.sh"; sourceTree = "<group>"; };
+		F8BFE20821BD2946004237E8 /* MDConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = MDConfig.plist; path = Config/MDConfig.plist; sourceTree = "<group>"; };
+		F8BFE20B21BD2946004237E8 /* put ipa or app here */ = {isa = PBXFileReference; lastKnownFileType = text; name = "put ipa or app here"; path = "TargetApp/put ipa or app here"; sourceTree = "<group>"; };
+		F8BFE20C21BD2946004237E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8BFE21221BD2946004237E8 /* libmok_lakalaDylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libmok_lakalaDylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BFE21721BD2946004237E8 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F8BFE21921BD2946004237E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8BFE21B21BD2946004237E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F8BFE21F21BD2946004237E8 /* mok_lakalaDylib.xm */ = {isa = PBXFileReference; lastKnownFileType = text; name = mok_lakalaDylib.xm; path = Logos/mok_lakalaDylib.xm; sourceTree = "<group>"; };
+		F8BFE22021BD2946004237E8 /* mok_lakalaDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = mok_lakalaDylib.mm; path = Logos/mok_lakalaDylib.mm; sourceTree = "<group>"; };
+		F8BFE22321BD2946004237E8 /* MDConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDConfigManager.h; path = Config/MDConfigManager.h; sourceTree = "<group>"; };
+		F8BFE22521BD2946004237E8 /* MDConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDConfigManager.m; path = Config/MDConfigManager.m; sourceTree = "<group>"; };
+		F8BFE22721BD2946004237E8 /* MDCycriptManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDCycriptManager.h; path = Config/MDCycriptManager.h; sourceTree = "<group>"; };
+		F8BFE22921BD2946004237E8 /* MDCycriptManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDCycriptManager.m; path = Config/MDCycriptManager.m; sourceTree = "<group>"; };
+		F8BFE22B21BD2946004237E8 /* MDMethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDMethodTrace.h; path = Config/MDMethodTrace.h; sourceTree = "<group>"; };
+		F8BFE22D21BD2946004237E8 /* MDMethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDMethodTrace.m; path = Config/MDMethodTrace.m; sourceTree = "<group>"; };
+		F8BFE22F21BD2946004237E8 /* ANYMethodLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ANYMethodLog.h; path = Config/ANYMethodLog.h; sourceTree = "<group>"; };
+		F8BFE23121BD2946004237E8 /* ANYMethodLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ANYMethodLog.m; path = Config/ANYMethodLog.m; sourceTree = "<group>"; };
+		F8BFE23421BD2946004237E8 /* LLDBTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LLDBTools.h; path = Tools/LLDBTools.h; sourceTree = "<group>"; };
+		F8BFE23621BD2946004237E8 /* LLDBTools.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LLDBTools.mm; path = Tools/LLDBTools.mm; sourceTree = "<group>"; };
+		F8BFE23921BD2946004237E8 /* mok_lakalaDylib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mok_lakalaDylib-Prefix.pch"; sourceTree = "<group>"; };
+		F8BFE23B21BD2946004237E8 /* AntiAntiDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AntiAntiDebug.m; path = AntiAntiDebug/AntiAntiDebug.m; sourceTree = "<group>"; };
+		F8BFE23E21BD2946004237E8 /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = fishhook/fishhook.c; sourceTree = "<group>"; };
+		F8BFE24021BD2946004237E8 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
+		F8BFE24221BD2946004237E8 /* mok_lakalaDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mok_lakalaDylib.h; sourceTree = "<group>"; };
+		F8BFE24421BD2946004237E8 /* mok_lakalaDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mok_lakalaDylib.m; sourceTree = "<group>"; };
+		F8BFE24E21BD2BA0004237E8 /* NSObject+DEDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DEDAO.h"; sourceTree = "<group>"; };
+		F8BFE24F21BD2BA0004237E8 /* NSObject+DEDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DEDAO.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8BFE1FB21BD2946004237E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20B850F1B411998D2F7B1D8 /* libPods-mok_lakala.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BFE20F21BD2946004237E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BFE21821BD2946004237E8 /* JavaScriptCore.framework in Frameworks */,
+				F8BFE21C21BD2946004237E8 /* UIKit.framework in Frameworks */,
+				F8BFE21A21BD2946004237E8 /* Foundation.framework in Frameworks */,
+				8650B1620457A142C36EBD05 /* libPods-mok_lakalaDylib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE1DFEFE17D05D811402B970 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4CFF01A5D7D4ED24E9C1D5B /* Pods-mok_lakala.debug.xcconfig */,
+				1A327CECC62E360A1983692F /* Pods-mok_lakala.release.xcconfig */,
+				03E2198061E1BA21D857E1D3 /* Pods-mok_lakalaDylib.debug.xcconfig */,
+				B395BC150D9BF14C2FC6BDF2 /* Pods-mok_lakalaDylib.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8BFE1F521BD2946004237E8 = {
+			isa = PBXGroup;
+			children = (
+				F8BFE20321BD2946004237E8 /* mok_lakala */,
+				F8BFE21D21BD2946004237E8 /* mok_lakalaDylib */,
+				F8BFE21621BD2946004237E8 /* Frameworks */,
+				F8BFE20221BD2946004237E8 /* Products */,
+				DE1DFEFE17D05D811402B970 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F8BFE20221BD2946004237E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8BFE20121BD2946004237E8 /* mok_lakala.app */,
+				F8BFE21221BD2946004237E8 /* libmok_lakalaDylib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8BFE20321BD2946004237E8 /* mok_lakala */ = {
+			isa = PBXGroup;
+			children = (
+				F8BFE20421BD2946004237E8 /* icon.png */,
+				F8BFE20C21BD2946004237E8 /* Info.plist */,
+				F8BFE20521BD2946004237E8 /* Scripts */,
+				F8BFE20721BD2946004237E8 /* Config */,
+				F8BFE20A21BD2946004237E8 /* TargetApp */,
+			);
+			path = mok_lakala;
+			sourceTree = "<group>";
+		};
+		F8BFE20521BD2946004237E8 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				F8BFE20621BD2946004237E8 /* quick-resign.sh */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		F8BFE20721BD2946004237E8 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				F8BFE20821BD2946004237E8 /* MDConfig.plist */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		F8BFE20A21BD2946004237E8 /* TargetApp */ = {
+			isa = PBXGroup;
+			children = (
+				F8BFE20B21BD2946004237E8 /* put ipa or app here */,
+			);
+			name = TargetApp;
+			sourceTree = "<group>";
+		};
+		F8BFE21621BD2946004237E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8BFE21721BD2946004237E8 /* JavaScriptCore.framework */,
+				F8BFE21921BD2946004237E8 /* Foundation.framework */,
+				F8BFE21B21BD2946004237E8 /* UIKit.framework */,
+				10715EFCEFD95D81322ABCB7 /* libPods-mok_lakala.a */,
+				59E8634DED745917FFEB71CB /* libPods-mok_lakalaDylib.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8BFE21D21BD2946004237E8 /* mok_lakalaDylib */ = {
+			isa = PBXGroup;
+			children = (
+				F8BFE24221BD2946004237E8 /* mok_lakalaDylib.h */,
+				F8BFE24421BD2946004237E8 /* mok_lakalaDylib.m */,
+				F8BFE24E21BD2BA0004237E8 /* NSObject+DEDAO.h */,
+				F8BFE24F21BD2BA0004237E8 /* NSObject+DEDAO.m */,
+				F8BFE21E21BD2946004237E8 /* Logos */,
+				F8BFE22221BD2946004237E8 /* Config */,
+				F8BFE23321BD2946004237E8 /* Tools */,
+				F8BFE23A21BD2946004237E8 /* AntiAntiDebug */,
+				F8BFE23D21BD2946004237E8 /* fishhook */,
+				F8BFE23821BD2946004237E8 /* Supporting Files */,
+			);
+			path = mok_lakalaDylib;
+			sourceTree = "<group>";
+		};
+		F8BFE21E21BD2946004237E8 /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				F8BFE21F21BD2946004237E8 /* mok_lakalaDylib.xm */,
+				F8BFE22021BD2946004237E8 /* mok_lakalaDylib.mm */,
+			);
+			name = Logos;
+			sourceTree = "<group>";
+		};
+		F8BFE22221BD2946004237E8 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				F8BFE22321BD2946004237E8 /* MDConfigManager.h */,
+				F8BFE22521BD2946004237E8 /* MDConfigManager.m */,
+				F8BFE22721BD2946004237E8 /* MDCycriptManager.h */,
+				F8BFE22921BD2946004237E8 /* MDCycriptManager.m */,
+				F8BFE22B21BD2946004237E8 /* MDMethodTrace.h */,
+				F8BFE22D21BD2946004237E8 /* MDMethodTrace.m */,
+				F8BFE22F21BD2946004237E8 /* ANYMethodLog.h */,
+				F8BFE23121BD2946004237E8 /* ANYMethodLog.m */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		F8BFE23321BD2946004237E8 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F8BFE23421BD2946004237E8 /* LLDBTools.h */,
+				F8BFE23621BD2946004237E8 /* LLDBTools.mm */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		F8BFE23821BD2946004237E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8BFE23921BD2946004237E8 /* mok_lakalaDylib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8BFE23A21BD2946004237E8 /* AntiAntiDebug */ = {
+			isa = PBXGroup;
+			children = (
+				F8BFE23B21BD2946004237E8 /* AntiAntiDebug.m */,
+			);
+			name = AntiAntiDebug;
+			sourceTree = "<group>";
+		};
+		F8BFE23D21BD2946004237E8 /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				F8BFE23E21BD2946004237E8 /* fishhook.c */,
+				F8BFE24021BD2946004237E8 /* fishhook.h */,
+			);
+			name = fishhook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F8BFE21021BD2946004237E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BFE22821BD2946004237E8 /* MDCycriptManager.h in Headers */,
+				F8BFE22C21BD2946004237E8 /* MDMethodTrace.h in Headers */,
+				F8BFE23521BD2946004237E8 /* LLDBTools.h in Headers */,
+				F8BFE22421BD2946004237E8 /* MDConfigManager.h in Headers */,
+				F8BFE23021BD2946004237E8 /* ANYMethodLog.h in Headers */,
+				F8BFE24321BD2946004237E8 /* mok_lakalaDylib.h in Headers */,
+				F8BFE25021BD2BA0004237E8 /* NSObject+DEDAO.h in Headers */,
+				F8BFE24121BD2946004237E8 /* fishhook.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F8BFE20021BD2946004237E8 /* mok_lakala */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8BFE24B21BD2946004237E8 /* Build configuration list for PBXNativeTarget "mok_lakala" */;
+			buildPhases = (
+				2B8673AFBA4FAC18B5EB9EB0 /* [CP] Check Pods Manifest.lock */,
+				F8BFE1FA21BD2946004237E8 /* Sources */,
+				F8BFE1FB21BD2946004237E8 /* Frameworks */,
+				F8BFE1FC21BD2946004237E8 /* ShellScript */,
+				F8BFE1FD21BD2946004237E8 /* Resources */,
+				F8BFE1FE21BD2946004237E8 /* CopyFiles */,
+				F8BFE1FF21BD2946004237E8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8BFE21521BD2946004237E8 /* PBXTargetDependency */,
+			);
+			name = mok_lakala;
+			productName = mok_lakala;
+			productReference = F8BFE20121BD2946004237E8 /* mok_lakala.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8BFE21121BD2946004237E8 /* mok_lakalaDylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8BFE24821BD2946004237E8 /* Build configuration list for PBXNativeTarget "mok_lakalaDylib" */;
+			buildPhases = (
+				DB5D85FF0BDE70CD6DBAF867 /* [CP] Check Pods Manifest.lock */,
+				F8BFE20D21BD2946004237E8 /* ShellScript */,
+				F8BFE20E21BD2946004237E8 /* Sources */,
+				F8BFE20F21BD2946004237E8 /* Frameworks */,
+				F8BFE21021BD2946004237E8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mok_lakalaDylib;
+			productName = mok_lakalaDylib;
+			productReference = F8BFE21221BD2946004237E8 /* libmok_lakalaDylib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8BFE1F621BD2946004237E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = YY.Inc;
+				TargetAttributes = {
+					F8BFE20021BD2946004237E8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					F8BFE21121BD2946004237E8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = F8BFE1F921BD2946004237E8 /* Build configuration list for PBXProject "mok_lakala" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F8BFE1F521BD2946004237E8;
+			productRefGroup = F8BFE20221BD2946004237E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8BFE20021BD2946004237E8 /* mok_lakala */,
+				F8BFE21121BD2946004237E8 /* mok_lakalaDylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8BFE1FD21BD2946004237E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BFE20921BD2946004237E8 /* MDConfig.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B8673AFBA4FAC18B5EB9EB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mok_lakala-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB5D85FF0BDE70CD6DBAF867 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mok_lakalaDylib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8BFE1FC21BD2946004237E8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /opt/MonkeyDev/Tools/pack.sh;
+		};
+		F8BFE1FF21BD2946004237E8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/Tools/pack.sh codesign";
+		};
+		F8BFE20D21BD2946004237E8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8BFE1FA21BD2946004237E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BFE20E21BD2946004237E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BFE22A21BD2946004237E8 /* MDCycriptManager.m in Sources */,
+				F8BFE25121BD2BA0004237E8 /* NSObject+DEDAO.m in Sources */,
+				F8BFE23221BD2946004237E8 /* ANYMethodLog.m in Sources */,
+				F8BFE22621BD2946004237E8 /* MDConfigManager.m in Sources */,
+				F8BFE23721BD2946004237E8 /* LLDBTools.mm in Sources */,
+				F8BFE22121BD2946004237E8 /* mok_lakalaDylib.mm in Sources */,
+				F8BFE22E21BD2946004237E8 /* MDMethodTrace.m in Sources */,
+				F8BFE23F21BD2946004237E8 /* fishhook.c in Sources */,
+				F8BFE24521BD2946004237E8 /* mok_lakalaDylib.m in Sources */,
+				F8BFE23C21BD2946004237E8 /* AntiAntiDebug.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8BFE21521BD2946004237E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8BFE21121BD2946004237E8 /* mok_lakalaDylib */;
+			targetProxy = F8BFE21421BD2946004237E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F8BFE24621BD2946004237E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8BFE24721BD2946004237E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8BFE24921BD2946004237E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E2198061E1BA21D857E1D3 /* Pods-mok_lakalaDylib.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32M62TMXC7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mok_lakalaDylib/mok_lakalaDylib-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libmok_lakalaDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"mok_lakalaDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+					"-lcycript",
+					"-framework",
+					RevealServer,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		F8BFE24A21BD2946004237E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B395BC150D9BF14C2FC6BDF2 /* Pods-mok_lakalaDylib.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 32M62TMXC7;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mok_lakalaDylib/mok_lakalaDylib-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libmok_lakalaDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"mok_lakalaDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8BFE24C21BD2946004237E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4CFF01A5D7D4ED24E9C1D5B /* Pods-mok_lakala.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32M62TMXC7;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = mok_lakala/Info.plist;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_DEFAULT_BUNDLEID = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yy.mok-lakala";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8BFE24D21BD2946004237E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A327CECC62E360A1983692F /* Pods-mok_lakala.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32M62TMXC7;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = mok_lakala/Info.plist;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_DEFAULT_BUNDLEID = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yy.mok-lakala";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8BFE1F921BD2946004237E8 /* Build configuration list for PBXProject "mok_lakala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BFE24621BD2946004237E8 /* Debug */,
+				F8BFE24721BD2946004237E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8BFE24821BD2946004237E8 /* Build configuration list for PBXNativeTarget "mok_lakalaDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BFE24921BD2946004237E8 /* Debug */,
+				F8BFE24A21BD2946004237E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8BFE24B21BD2946004237E8 /* Build configuration list for PBXNativeTarget "mok_lakala" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BFE24C21BD2946004237E8 /* Debug */,
+				F8BFE24D21BD2946004237E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8BFE1F621BD2946004237E8 /* Project object */;
+}

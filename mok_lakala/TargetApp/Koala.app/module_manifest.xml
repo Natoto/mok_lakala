@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <module type="contactlist" name="LKLContacts"/>
+    <module type="lbs" name="LKLLocation"/>
+</manifest>
